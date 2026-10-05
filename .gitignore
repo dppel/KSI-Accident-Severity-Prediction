@@ -1,0 +1,29 @@
+# Large Data Files (Exceed GitHub 100MB limit)
+*.csv
+*.parquet
+*.zip
+*.7z
+*.gz
+
+# Python & Jupyter temporary files
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.pytest_cache/
+*.log
+
+# Helper build scripts
+clean_project.py
+create_notebook.py
+fix_notebook.py
+test_nb.py
+update_enhanced_notebook.py
+generate_pdf.py
+
+# Environment & OS files
+.DS_Store
+Thumbs.db
+.env
+.venv/
+venv/
